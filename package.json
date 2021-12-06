@@ -1,0 +1,11 @@
+{
+  "name": "eslint-config-eliassama",
+  "version": "1.0.0",
+  "description": "Eslint rules defined by Eliassama",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "eliassama <elias@elias.ink> (https://github.com/eliassama)",
+  "license": "MIT"
+}
