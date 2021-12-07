@@ -7,5 +7,38 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "eliassama <elias@elias.ink> (https://github.com/eliassama)",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliassama/eslint-config-eliassama.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eliassama/eslint-config-eliassama/issues"
+  },
+  "homepage": "https://github.com/eliassama/eslint-config-eliassama",
+  "peerDependencies": {
+    "eslint": ">= 8",
+    "prettier": ">= 2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.6.0",
+    "@typescript-eslint/parser": "5.6.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-config-standard": "16.0.3",
+    "eslint-import-resolver-typescript": "2.5.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "4.0.0",
+    "eslint-plugin-promise": "5.2.0",
+    "eslint-plugin-vue": "8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.4.0",
+    "prettier": "2.5.1",
+    "standard-version": "9.3.2",
+    "typescript": "4.5.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
