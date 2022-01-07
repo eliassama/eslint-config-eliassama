@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./packages/vue'],
+  extends: ['./packages/vue/.eslintrc'],
 };

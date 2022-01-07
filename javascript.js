@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ['./packages/javascript'],
+  extends: ['./packages/javascript/.eslintrc'],
 };
