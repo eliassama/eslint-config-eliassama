@@ -4,7 +4,10 @@
   "description": "Eslint rules defined by Eliassama",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
+    "postversion": "git push && git push --tags"
   },
   "author": "eliassama <elias@elias.ink> (https://github.com/eliassama)",
   "license": "MIT",
